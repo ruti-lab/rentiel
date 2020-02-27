@@ -1,0 +1,15 @@
+{
+    "name": "rentiel",
+    "version": "0.1.0",
+    "eslintConfig": {
+        "extends": "@ruti-lab/eslint-config"
+    },
+    "author": "RUTI-lab",
+    "license": "MIT",
+    "devDependencies": {
+        "@now/node": "^1.4.1",
+        "@ruti-lab/eslint-config": "^1.1.0",
+        "eslint": "^6.8.0",
+        "now": "^17.0.4"
+    }
+}
