@@ -7,5 +7,19 @@ export default (request: NowRequest, response: NowResponse): void => {
     response.json({
         id,
         title: 'Learn spanish',
+        cards: [
+            {
+                question: 'Como te llama',
+                answer: 'What\'s your name',
+            },
+            {
+                question: 'el nino',
+                answer: 'the boy',
+            },
+            {
+                question: 'habla espanol',
+                answer: 'I speak spanish',
+            },
+        ],
     });
 };
