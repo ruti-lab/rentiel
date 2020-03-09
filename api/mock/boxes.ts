@@ -5,12 +5,14 @@ export default (request: NowRequest, response: NowResponse) => {
     allowCors(response);
     response.json([
         {
+            id: '123',
             title: 'Learn spanish',
             nbCards: 10,
             cardsLeftToAdd: 5,
             cardsLeftToRehearse: 0,
         },
         {
+            id: 'abc',
             title: 'Guitar lesson',
             nbCards: 120,
             cardsLeftToAdd: 0,
